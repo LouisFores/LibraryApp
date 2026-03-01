@@ -1,2 +1,6 @@
-package com.example.librarybackend.entity;public class BookStatus {
+package com.example.librarybackend.entity;
+
+public enum BookStatus {
+    AVAILABLE,
+    BORROWED
 }

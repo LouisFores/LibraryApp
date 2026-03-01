@@ -1,11 +1,9 @@
 package com.example.librarybackend.dto;
-
-public record DashboardSummary(
+public record DashboardResponse(
         long totalBooks,
-        long availableBooks,
         long borrowedBooks,
+        long availableBooks,
         long totalBorrowers,
         long borrowingLoans,
         long overdueLoans
 ) {}
-
